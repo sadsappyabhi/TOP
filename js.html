@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Skipping ahead to JS</Title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+        //    let a = 10;
+        //    const max = 57; 
+        //    let actual = max - 13;
+        //    let percentage = actual / max;
+        //    const string = 'The revolution will not be televised!';
+    
+        //    console.log("Hello World!");
+        //  console.log(237 + 412);
+        //console.log(5+3+5+6+2+5);
+        //   console.log(4+6+9) / 77;
+        //   console.log (a);
+        //   console.log (9 * a)
+        //   console.log (string);
+        //
+        //    function min(a,b){
+        //        if (a<b){
+        //            return a;
+        //        }
+        //        else {
+        //            return b;
+        //        }
+        //    }
+        //function sayHi() {
+        //alert( "Hello" );
+        //}
+        //let func = sayHi;
+        
+        //For now, just write each function and test the output with console.log.
+        //Write a function called add7 that takes one number and returns that number + 7.
+
+        function add7(num){
+            return num + 7;
+        }
+        function multiply(a, b){
+            return a * b;
+        }
+        function capitalize(string){
+            
+
+            return string[0].toUpperCase() +
+                string.slice(1);
+            
+        //    string.toUpperCase();
+
+        //    return
+            // return uppercase index plus rest of string
+        
+        }
+
+        let answer = parseInt(prompt("Please enter the number you'd like to FizzBuzz up to"))
+
+        for (i=1; i <= answer; i++){
+            if (i % 3 === 0 && i % 5 === 0){
+                console.log('FizzBuzz');
+            }
+            else if (i % 3 === 0){
+                console.log('Fizz');
+            }
+            else if (i % 5 === 0){
+                console.log('Buzz');
+            }
+            else console.log(i);
+        }
+
+
+        function lastLetter(string){
+            return string.slice(-1);
+        }
+        </script>
+    </body>
+</html>
