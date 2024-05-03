@@ -3,6 +3,18 @@
   background: papayawhip;
 }
 
+.header {
+    display: flex;
+}
+
+.left-links {
+    display: flex;
+}
+
+.right-links {
+    display: flex;
+}
+
 .logo {
   font-size: 48px;
   font-weight: 900;
