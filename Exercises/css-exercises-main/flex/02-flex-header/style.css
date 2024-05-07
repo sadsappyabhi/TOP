@@ -1,10 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+ul {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0px;
+}
+
+.logo {
+  margin: 16px;
+}
+
+
+/* All of my changes are above this comment */
 .header  {
   font-family: monospace;
   background: papayawhip;
-}
-
-.header {
-    display: flex;
 }
 
 .left-links {
